@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+  font-family: "Poppins", sans-serif;
+      box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+h1{
+    text-align: center;
+}
+.outer{
+    width: 100vw;
+    
+}
+.inner{
+    width: 80%;
+
+    padding: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin: auto;
+}
+svg{
+    position: absolute;
+     right: 30px;
+     cursor: pointer;
+}
+.items{
+    top: 0px;
+    position: absolute;
+    width: 30%;
+    height: 100vh;
+    background-color: #212121;
+    transform: translateX(-100%);
+}
+.cards{
+    width: 200px;
+    height: 250px;
+    overflow: hidden;
+   background-image: linear-gradient( to right,#e1dabb,#f0eddd );
+   border-radius: 20px;
+}
